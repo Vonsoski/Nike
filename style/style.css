@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(33, 171, 199, 0.295);
 }
 
 header{
@@ -14,8 +15,8 @@ header{
     display: flex;
     height: 100px;
     justify-content: center;
-    background-color: rgb(216, 242, 247);
-    box-shadow: 5px 0px 10px;
+    background-color: rgba(142, 216, 231, 0.911);
+    box-shadow: 1px 1px 6px #bd82ee;
 }
 
 .container-menu{
@@ -61,16 +62,19 @@ nav a:hover{
 .title{
     flex-wrap: wrap;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-start; 
 }
 
 .title h1{
+    font-size: 60px;
     margin-bottom: 20px;
+    
 }
+
 
 .header-one{
     display: flex;
-    background-color: rgba(0, 0, 255, 0.171);
+
     padding: 80px;
 }
 
