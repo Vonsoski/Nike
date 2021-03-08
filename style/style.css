@@ -58,9 +58,31 @@ nav a:hover{
 }
 
 /*HEADER ONE*/
-.header-one{
-    width: 100%;
-    height: 100%;
+.title{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end; 
+}
 
+.title h1{
+    margin-bottom: 20px;
+}
+
+.header-one{
+    display: flex;
     background-color: rgba(0, 0, 255, 0.171);
+    padding: 80px;
+}
+
+.container-section{
+    display: flex;
+    align-items: center;
+}
+.img-one{
+    box-shadow: 3px 0px 10px #f897e0;
+}
+
+.img-two{
+   margin-right: 130px;
+   box-shadow: 1px 0px 10px #f897e0;
 }
