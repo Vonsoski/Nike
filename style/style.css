@@ -77,7 +77,7 @@ nav a:hover{
 
 
 .container-section h1{
-    font-size: 60px;
+    font-size: 70px;
     text-shadow: #f897e0 2px 3px;
     
 }
@@ -203,14 +203,20 @@ footer{
     .header-one{
     flex-direction: column;
     margin-top: 70px;
-    padding: 50px;
+
 }
     .header-one img{
-        max-width: 400px;
+        max-width: 300px;
     }
 
     .container-two video{
-        max-width: 100%;
+        max-width: 400px;
+    }
+    .conteudo-video{
+        font-size: 10px;
+    }
+    .conteudo-video img{
+        width: 80px;
     }
     .container-three{
         flex-direction: column;
@@ -218,12 +224,10 @@ footer{
     .container-three h1{
         margin-top: 20px;
     }
-    footer{
-        flex-direction: column;
-        width: 100%;
-        height: 100px;
-
+    .container-three img{
+        max-width: 300px;
     }
+
     /*MENU*/
     header .container-menu{
         flex-direction: row;
@@ -242,5 +246,11 @@ footer{
         flex-direction: column;
         justify-content: space-around;
     }
+    /*footer*/
+    footer{
+        flex-direction: column;
+        width: 100%;
+        height: 100px;
 
+    }
 }
