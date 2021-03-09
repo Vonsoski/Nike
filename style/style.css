@@ -26,6 +26,20 @@ header{
 }
 
 /*menu*/
+.menu-mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm-line{
+    height: 5px;
+    background-color: #ffffff;
+}
+
+
 .menu{
     display: flex;
     align-items: center;
@@ -185,6 +199,7 @@ footer{
 
 /*MEDIA QUERY*/
 @media (max-width: 700px){
+
     .header-one{
     flex-direction: column;
     margin-top: 70px;
@@ -195,7 +210,7 @@ footer{
     }
 
     .container-two video{
-        max-width: 600px;
+        max-width: 100%;
     }
     .container-three{
         flex-direction: column;
@@ -206,8 +221,26 @@ footer{
     footer{
         flex-direction: column;
         width: 100%;
-        height: 150px;
+        height: 100px;
 
+    }
+    /*MENU*/
+    header .container-menu{
+        flex-direction: row;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color:rgba(142, 216, 231, 0.911);
+    }
+
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
 }
